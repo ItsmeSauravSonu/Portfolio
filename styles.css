@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
 
 :root {
-    --primary-color:#059669;
+    --primary-color:#11C6FF;
     --off-white: #F3F4F6;
-    --dark-gray: #6B7280;
+    --dark-gray: #c5d6f8;
 }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Caveat', cursive;
     margin: 0px
 }
 hr {
@@ -42,7 +45,7 @@ hr {
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white
+    color: #25293E;
 }
 
 .link-secondary {
@@ -61,6 +64,7 @@ hr {
 
 .list-item-inline {
     display: inline;
+    font-size: 1rem;
     padding: 0rem 0.5rem;
 }
 
@@ -68,13 +72,15 @@ hr {
 
 .navigation {
     background-color: var(--primary-color);
-    color: white;
+    color: #24201E;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
     font-weight: bold;
+    font-family: 'Caveat', cursive;
+    font-size:35px;
 }
 
 .navigation .nav-pills {
@@ -82,7 +88,7 @@ hr {
 }
 
 .navigation .link {
-    color: white;
+    color: #24201E;
 }
 
 .navigation .link-active {
@@ -107,6 +113,7 @@ hr {
     text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray);
+    font-family: 'Caveat', cursive;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -134,12 +141,12 @@ hr {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
-    color: white;
+    color: #24201E;
     border-top-right-radius: 1rem;
 }
 
 .footer .link {
-    color: white
+    color:#24201E;
 }
 
 .footer .footer-header {
