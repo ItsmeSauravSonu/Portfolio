@@ -3,15 +3,16 @@
 
 
 :root {
-    --primary-color:#11C6FF;
-    --off-white: #F3F4F6;
-    --dark-gray: #c5d6f8;
+    --primary-color:#;
+    --off-white: #E2E7EC;
+    --dark-gray: #343434;
 }
 
 body {
     /* font-family: 'Ubuntu', sans-serif; */
     font-family: 'Caveat', cursive;
-    margin: 0px
+    margin: 0px;
+    
 }
 hr {
     margin: 2rem 0rem;
